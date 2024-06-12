@@ -1,0 +1,76 @@
+body{
+    background: url("https://t4.ftcdn.net/jpg/04/61/23/23/360_F_461232389_XCYvca9n9P437nm3FrCsEIapG4SrhufP.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.title{
+    text-align: center;
+    font-size: 100px;
+}
+#search-input{
+    width: 50%;
+    height: 100px;
+    margin-bottom: 20px;
+    font-size: 70px;
+    margin-right: 20px;
+}
+.search{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+button {
+    width: 150px;
+    height: 100px;
+    background-color: #0ed411;
+    color: white;
+}
+
+main button:hover {
+    background-color: #1a6528;
+}
+#weather-data{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    background-color: transparent;
+    color: white;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: gold;
+    margin-top: 164px;
+}
+
+@media screen and (max-width: 1024px) {
+    .title {
+        font-size: 70px;
+    }
+    #search-input {
+        width: 70%;
+        font-size: 50px;
+    }
+    button {
+        width: 120px;
+        height: 80px;
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .title {
+        font-size: 50px;
+    }
+    #search-input {
+        width: 90%;
+        font-size: 30px;
+    }
+    button {
+        width: 100px;
+        height: 70px;
+        font-size: 25px;
+    }
+}
